@@ -13,7 +13,7 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             wenjuans=regjdbc.selectByUsername(username);
             //传回问卷
         }
-        else
+//        else
             //传回用户名或密码错误
     }
 

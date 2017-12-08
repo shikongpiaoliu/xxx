@@ -1,4 +1,4 @@
-import jdbc.RegJDBC;
+//import src.RegJDBC;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +18,7 @@ public class RegisterServlet extends HttpServlet {
         if(panduan.equals("1"))
         {RegJDBC.insert(username,password);
         response.sendRedirect("/main");}
-        else
+//        else
             //传出注册失败。。。
     }
 
